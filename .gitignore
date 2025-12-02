@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+venv.bak/
+.venv/
+venv1/
+
+# PyCharm & IDE files
+.idea/
+
+# Distribution & Packaging
+dist/
+build/
+.eggs/
+*.egg-info/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Operating System files
+.DS_Store
+.vscode/
+Thumbs.db
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Temporary files
+tmp/
