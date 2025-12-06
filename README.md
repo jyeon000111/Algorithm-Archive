@@ -8,12 +8,31 @@
 ## 📊 Profile
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=2sweetpotato22)](https://solved.ac/2sweetpotato22/)
 
+## 📖 Retrospective Pattern
+`Manual Archive`의 문제는 아래 5단계 프로세스를 거쳐 회고를 작성하고 있습니다.
+
+| Step | Section | Description |
+|:---:|:--- |:--- |
+| **1** | **문제 정보** <br> *(Problem)* | 문제의 핵심 요구사항과 난이도를 파악합니다. |
+| **2** | **핵심 아이디어** <br> *(Core Logic)* | 문제를 해결하는 결정적 알고리즘과 논리 흐름을 도출합니다. |
+| **3** | **어려웠던 점** <br> *(Difficulties)* | 접근 과정에서의 시행착오와 디버깅 과정을 기록합니다. |
+| **4** | **배운 점** <br> *(What I Learned)* | 새롭게 알게 된 라이브러리, 문법, 자료구조 활용법을 정리합니다. |
+| **5** | **코드 개선** <br> *(Refactoring)* | 메모리/시간 복잡도를 줄이거나 가독성을 높이는 방향으로 코드를 개선합니다. |
+
+## 📌 Selected Problems
+
+| Topic | Difficulty | Problem | Key Learning | Link |
+|:---:|:---:|:--- |:--- |:---:|
+| **Data Structure** | ![Silver 2](https://img.shields.io/badge/Silver%202-465E69?style=flat-square&logo=solved.ac&logoColor=white) | **[BOJ] 키로거** | 중간 삽입/삭제의 비효율성을 개선한 Two-Deque 구조 | [바로가기 🔗](./boj/kkr_workbook/04_stack_queue/cleared/5397_key_logger/) |
+| **Union-Find** | ![Gold 4](https://img.shields.io/badge/Gold%204-EC9A00?style=flat-square&logo=solved.ac&logoColor=white) | **[BOJ] 여행 가자** | 그래프 연결성 판별을 위한 집합 관리와 중복 탐색 최적화 | [바로가기 🔗](./boj/step_by_step/34_union_find_1/completed/1976_lets_travel/) |
+| **Parametric Search** | ![Gold 4](https://img.shields.io/badge/Gold%204-EC9A00?style=flat-square&logo=solved.ac&logoColor=white) | **[BOJ] 공유기 설치** | 결정 문제 변환 및 탐색 범위(Search Space) 최적화 | [바로가기 🔗](./boj/step_by_step/25_binary_search/completed/2110_install_router/) |
+
 
 
 ## 📂 Directory Structure
 백준허브의 자동 업로드 폴더와 수동으로 관리하는 폴더가 공존하는 구조입니다.
 
-특히 **Manual Archive**에는 문제별 **상세 분석 및 회고(README)** 가 포함되어 있습니다.
+특히 **Manual Archive**에는 문제별 **회고(README)** 가 포함되어 있습니다.
 ```text
 Algorithm-Archive
 ├── 🤖 Auto-Sync (by BaekjoonHub)
